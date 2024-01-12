@@ -5,8 +5,8 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav>
-      <Link to="/" className="title">
-        Home
+      <Link to="/home" className="title">
+        Malkit Benning
       </Link>
       <div
         className="menu"
@@ -23,7 +23,10 @@ export const Navbar = () => {
           <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/experience">Experience</NavLink>
+        </li>
+        <li>
+          <NavLink to="/projects">Projects</NavLink>
         </li>
         <li>
           <NavLink to="/contact">Contact</NavLink>

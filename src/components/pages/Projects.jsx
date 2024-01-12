@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Services = () => {
+export const Projects = () => {
   return (
     <div>
       <div>
